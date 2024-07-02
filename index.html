@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Avengers Bookstore</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <style>
+      @keyframes fadeInScale {
+        0% {
+          transform: scale(0);
+          opacity: 0;
+        }
+        50% {
+          transform: scale(1.1);
+        }
+        100% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+
+      .text-animation {
+        text-align: center;
+        animation: fadeInScale 1s ease-out;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: auto;
+        box-sizing: border-box;
+        padding: 48px 24px;
+        background-color: #eaeaea;
+      }
+      h1 {
+        text-align: center;
+      }
+
+      .logo_img {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 24px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      p {
+        font-size: 1rem;
+        margin-bottom: 16px;
+        line-height: 150%;
+      }
+
+      .lets_go {
+        text-align: center;
+      }
+      .lets_go a {
+        font-size: 1.5rem;
+        height: 44px;
+        border-radius: 8px;
+        padding: 0 16px;
+        color: #295aba;
+        border: 2px solid #295aba;
+        font-weight: 500;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background: linear-gradient(to left, #eaeaea 50%, #295aba 50%) right;
+        background-size: 200%;
+        transition: 0.5s ease-out;
+      }
+      .lets_go a:hover {
+        background-position: left;
+        color: #ffffff;
+      }
+
+      p a {
+        text-decoration: underline;
+      }
+
+      .team_avengers {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 24px 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .team_avengers div {
+        width: 140px;
+        text-align: center;
+        color: #295aba;
+        border: 0.5px solid #295aba;
+      }
+      .team_avengers img {
+        width: 140px;
+        height: 140px;
+      }
+      b {
+        font-size: 1.2rem;
+        color: #f66b00;
+      }
+      span {
+        font-size: 1.2rem;
+        color: #18afa4;
+      }
+      
+      .team_avengers div div a i{
+          font-size: 1.5rem;
+          color: #3b5998;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to Local Bookstore</h1>
+      <div class="logo_img">
+        <img src="src/Bookstore_Logo.png" alt="" />
+      </div>
+      <div class="team_avengers">
+        <div>
+          <img src="src/teamAvengers/aashish.JPEG" alt="aashish" />
+          Aashish
+          <div>
+              <a href="https://www.facebook.com/aashish.nakarmi.1" target="_blank"><i class="ph-fill ph-facebook-logo"></i></a>
+            </div>
+        </div>
+        <div>
+          <img src="src/teamAvengers/rashmi.jpg" alt="" />
+          Rashmi
+          <div>
+              <a href="https://www.linkedin.com/in/rashmi-gururng-10a77118b/" target="_blank"><i class="ph-fill ph-facebook-logo"></i></a>
+            </div>
+        </div>
+        <div><img src="src/teamAvengers/roshan.jpg" alt="" />Roshan
+        <div>
+              <a href="https://www.facebook.com/roshan.stha.9638/" target="_blank"><i class="ph-fill ph-linkedin-logo"></i></a>
+            </div></div>
+        <div><img src="src/teamAvengers/shukra.jpg" alt="" />Shukra
+        <div>
+              <a href="https://www.facebook.com/profile.php?id=100008699173238" target="_blank"><i class="ph-fill ph-facebook-logo"></i></a>
+            </div></div>
+        <div><img src="src/teamAvengers/sudeep.jpg" alt="" />Sudeep
+        <div>
+              <a href="https://www.facebook.com/sudeep.unspoken" target="_blank"><i class="ph-fill ph-facebook-logo"></i></a>
+            </div></div>
+      </div>
+      <p class="text-animation">
+        Designed by <b>Team Avengers</b> and developed by <span>Roshan.</span>
+      </p>
+      <p class="text-animation">
+        It's a demo project created for educational purposes only using HTML, CSS and Javascript.
+      </p>
+      <p class="text-animation">
+        Enjoy exploring our showcase of design and development skills!
+      </p>
+      <p class="text-animation">
+        Please note, this website does not represent a real business or
+        organization.
+      </p>
+      <p class="text-animation">
+        Every resource used on this website, including images, text, and other
+        multimedia elements, has been sourced and utilized exclusively for
+        educational purposes. We do not claim ownership of any external
+        resources used within the website.
+      </p>
+      <div class="lets_go">
+        <a href="signup.html">Let's Go</a>
+      </div>
+      <p></p>
+
+      <p>
+        If you have any feedback or questions, please don't hesitate to
+        <a href="mailto:Roshanshrestha438@gmail.com" target="blank">contact us</a>. Thank you
+        for visiting!
+      </p>
+
+      <script>
+        const textElements = document.getElementsByClassName("text-animation");
+        for (let i = 0; i < textElements.length; i++) {
+          const textElement = textElements[i];
+          textElement.style.opacity = 0;
+          textElement.style.transform = "scale(0)";
+        }
+
+        function animateText() {
+          let delay = 0;
+          for (let i = 0; i < textElements.length; i++) {
+            const textElement = textElements[i];
+            setTimeout(() => {
+              textElement.style.opacity = 1;
+              textElement.style.transform = "scale(1)";
+            }, delay);
+            delay += 1000; 
+          }
+        }
+
+        window.onload = animateText;
+      </script>
+    </div>
+  </body>
+</html>
